@@ -1,0 +1,83 @@
+h1 {
+  margin: 5px;
+  margin-bottom: 0px;
+}
+
+body {
+  margin: 50px;
+  font-family: 'Assistant', sans-serif;
+  background-image: url(https://cdn.shopify.com/s/files/1/1490/7146/products/Productreclaimed_1024x1024.png?v=1518494662);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 12px
+}
+
+hr {
+border: 2px;
+border-style: groove;
+}
+
+#hr-top{
+  margin-top: 0px;
+}
+
+#start {
+  margin-top: 0px
+}
+
+.logo{
+  height: 80px;
+  vertical-align: middle;
+}
+
+.header_top{
+  color: white;
+}
+
+#title_logo {
+  display: inline;
+  vertical-align: middle;
+}
+
+
+#search_button {
+  border-radius: 10%;
+}
+
+span {
+  display: inline-block;
+  background:  #ffa500;
+  padding: 7px 13px 7px 13px;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  background-position: bottom;
+  }
+
+h2 {
+  margin-top: 10px
+}
+
+p {
+  display: inline;
+  vertical-align: top
+}
+
+.emails {
+  border: 1px solid black;
+  background: lightgrey;
+}
+
+.read {
+  background: white
+}
+
+.email_box {
+  vertical-align: middle
+}
+
+footer {
+text-align: center;
+font-style: italic;
+font-family: sans-serif;
+}
