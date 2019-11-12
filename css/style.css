@@ -1,37 +1,31 @@
-h1 {
-  margin: 5px;
-  margin-bottom: 0px;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  margin: 50px;
   font-family: 'Assistant', sans-serif;
   background-image: url(https://cdn.shopify.com/s/files/1/1490/7146/products/Productreclaimed_1024x1024.png?v=1518494662);
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 12px
 }
 
-hr {
-border: 2px;
-border-style: groove;
+#container{
+  width: 80%;
+  margin: auto;
 }
-
-#hr-top{
-  margin-top: 0px;
-}
-
-#start {
-  margin-top: 0px
+/* INTESTAZIONE PAGINA */
+.header_top{
+  color: white;
+  height: 90px;
+  line-height: 90px;
+  border-bottom: groove 2px;
 }
 
 .logo{
   height: 80px;
   vertical-align: middle;
-}
-
-.header_top{
-  color: white;
 }
 
 #title_logo {
@@ -40,43 +34,68 @@ border-style: groove;
 }
 
 
-#search_button {
-  border-radius: 10%;
+.search {
+  margin: 5px;
 }
 
+.unread {
+  margin-bottom: 7px;
+  border-bottom: groove 2px;
+  color: white;
+}
+
+#search_button {
+  border-radius: 12%;
+}
+/* MAIL NON LETTE */
 span {
   display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
   background:  #ffa500;
-  padding: 7px 13px 7px 13px;
-  border-radius: 100%;
+  text-align: center;
   vertical-align: middle;
-  margin-bottom: 5px;
-  background-position: bottom;
+  line-height: 30px;
+  border-radius: 100%;
+  margin: 2px;
   }
 
-h2 {
-  margin-top: 10px
+/* ELENCO MAIL */
+.email_box {
+  display: inline:
 }
 
-p {
+p{
   display: inline;
-  vertical-align: top
 }
 
 .emails {
   border: 1px solid black;
   background: lightgrey;
-}
+  padding: 3px
+  }
 
 .read {
-  background: white
+  background: white;
 }
 
 .email_box {
-  vertical-align: middle
+  vertical-align: middle;
 }
 
+#inbox {
+  border-bottom: groove 2px;
+}
+
+.borders {
+  margin-bottom: 5px;
+}
+
+/* FOOTER */
 footer {
+background-color: lightgrey;
+margin: 5px;
 text-align: center;
 font-style: italic;
 font-family: sans-serif;
